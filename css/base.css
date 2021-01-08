@@ -1,0 +1,115 @@
+html,
+body,
+div,
+a,
+p,
+ul,
+li,
+ol,
+li,
+button,
+input,
+label,
+form,
+i,
+em,
+table,
+th,
+td,
+dl,
+dd,
+dt,
+img,
+span,
+b,
+h5,
+h2,
+h3,
+h2,
+b,
+h4 {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+a:active,
+a:focus,
+a:hover,
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 12px;
+    color: #5e5e5e;
+}
+
+i {
+    font-style: normal;
+}
+
+input[type=password],
+input[type=text],
+textarea {
+    resize: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background: #fff;
+}
+
+input,
+button,
+textarea {
+    outline: none;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix::before,
+.clearfix::after {
+    content: '';
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix::before {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.w2 {
+    width: 990px;
+    margin: 0 auto;
+}
+
+img {
+    vertical-align: middle;
+}

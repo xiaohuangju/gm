@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>找回密码</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/forget.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/w2.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+
+    <!-- 引入的头部 -->
+    <div class="w2header"></div>
+
+    <div class="find_pw w2 clearfix">
+
+
+
+        <!-- 找回密码的主题 -->
+        <!-- 找回密码的标题 -->
+        <div class="find_pw_title clearfix">
+            <div class="find_pw_title1">
+                <span></span> 线上会员
+            </div>
+            <div class="find_pw_title2">
+                <span></span> 门店会员
+            </div>
+        </div>
+
+        <!-- 找回密码的步骤 -->
+        <div class="find_step">
+            <!-- 第几步的显示 -->
+            <div class="find_step1"></div>
+
+            <!-- 第一步的表单线上会员 -->
+            <div class="find_form">
+                <div class="find_uesrform clearfix">
+                    <span class="find_uesrform1">
+                    <label for="find_uesrform_name">账户名：</label>
+                   </span>
+                    <input type="text" id='find_uesrform_name' placeholder="用户名/邮箱/手机号">
+                    <div class="find_uesrform_name_tip">
+                        <span> 用户名/邮箱/手机号</span>
+                    </div>
+                </div>
+                <div class="find_yanzheng clearfix">
+                    <span class="find_uesrform2">
+                    <label for="find_uesrform_yanzheng">验证码：</label>
+                   </span>
+                    <input type="text" id='find_uesrform_yanzheng'>
+                    <div class="find_uesrform_yanzheng_tip">
+
+                        <img src="http://imgcode.gome.com.cn/getimage.no?type=gome_profile_center&capCd=86ba22bf-e2be-4321-943c-fe469ddbc1c4" alt="" title="刷新" class="yanzheng_img">
+                    </div>
+                    <div class="yanzheng_img_tip">
+                        <p>请输入图片中的4个字符，不区分大小写</p>
+                    </div>
+                </div>
+                <div class="nextstep clearfix">
+                    <a href="">下一步</a>
+                </div>
+            </div>
+
+
+            <!-- 门店会员 -->
+
+        </div>
+
+
+
+    </div>
+
+
+    <!-- 引入的尾部 -->
+    <div class="w2footer"></div>
+
+
+</body>
+<script type="text/javascript" src="./lib/jquery1.12.4.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $(".w2header").load("./w2top.html");
+        $(".w2footer").load("./w2footer.html");
+    });
+</script>
+
+
+</html>

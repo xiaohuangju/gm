@@ -1,0 +1,62 @@
+/* .box_title {
+    /* width: 740px; */
+
+
+/* margin: 20px auto; */
+
+
+/* }  */
+
+.box_title {
+    background: #f3f3f3;
+    height: 44px;
+    line-height: 44px;
+}
+
+.shop {
+    border: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.box_title h4,
+.shop h4 {
+    float: left;
+    width: 139px;
+    text-align: center;
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.box_title h4:nth-child(2),
+.shop h4:nth-child(2) {
+    width: 140px;
+}
+
+.clear {
+    clear: both;
+}
+
+.shop h4 {
+    line-height: 20px;
+}
+
+.shop h4 img {
+    width: 100px;
+    height: 100px;
+}
+
+h4 button {
+    padding: 0px 5px;
+}
+
+h4 input {
+    width: 20px;
+}
+
+.shop_footer {
+    margin-top: 20px;
+    height: 60px;
+    line-height: 60px;
+    background: #f3f3f3;
+}

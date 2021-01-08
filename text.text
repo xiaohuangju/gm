@@ -1,0 +1,11 @@
+遇到的问题：
+1，鼠标hover时抖动的问题
+2.控制台向上拉动，高度的问题
+3,text对img是有效果的
+4.line-height 是否对行内块元素有效
+5.使用jq引入公共部分的时候要使用服务器
+6. .company_register {
+            margin-bottom: 70px;
+            height: 21px;
+        }register.css  175行为什么一定要加高度，才能撑开
+7.button和input的边框问题

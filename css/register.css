@@ -1,0 +1,305 @@
+        /* .register_header {
+            position: relative;
+        }
+         */
+        
+        .w2header {
+            border-bottom: 1px solid #dd00a7;
+        }
+        
+        .used_register {
+            position: absolute;
+            top: -70px;
+            right: 20px;
+        }
+        
+        .register_progress {
+            width: 376px;
+            margin: 0 auto;
+        }
+        
+        .register_progress_step {
+            position: relative;
+            background: #fff;
+            margin: 95px 0 40px;
+            height: 50px;
+            /* background-color: rosybrown; */
+        }
+        
+        .register_progress_step li {
+            width: 133px;
+            float: left;
+            height: 3px;
+            background: #e0e0e0;
+        }
+        
+        .register_progress_step li.rps1 {
+            margin-left: 35px;
+            margin-right: 40px;
+        }
+        
+        .rprogress_step1,
+        .rprogress_step2,
+        .rprogress_step3 {
+            position: absolute;
+            left: 0;
+            top: -14px;
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            line-height: 24px;
+            border: 3px solid #ff4c4c;
+            /* color: #ff4c4c; */
+            color: #e0e0e0;
+            border-radius: 100%;
+            font-weight: 700;
+            text-align: center;
+            background: #fff;
+        }
+        
+        .rprogress_step2 {
+            left: 50%;
+            top: -14px;
+            margin-left: -15px;
+        }
+        
+        .rprogress_step3 {
+            left: 100%;
+            top: -14px;
+            margin-left: -30px;
+        }
+        
+        .yanzheng_tel,
+        .textin,
+        .register_succ {
+            position: absolute;
+            left: -2%;
+            width: 200px;
+            color: #ff4c4c;
+            margin-top: 25px;
+            font: 12px/1.5 arial, "\65b0\5b8b\4f53";
+        }
+        
+        .register_succ {
+            left: 90%;
+        }
+        
+        .textin {
+            left: 42%;
+        }
+        
+        .register_progress_form {
+            position: relative;
+            width: 400px;
+            margin-left: 25px;
+        }
+        
+        .put_tel,
+        .company_register,
+        .put_username,
+        .put_pw {
+            position: relative;
+        }
+        
+        .put_tel,
+        .put_yanzheng,
+        .put_username,
+        .put_pw {
+            margin-bottom: 30px;
+        }
+        
+        .put_tel input,
+        .put_yanzheng a,
+        .put_sure button,
+        .put_sure span,
+        .put_username input,
+        .put_pw input {
+            display: inline-block;
+            width: 300px;
+            padding: 12px 10px;
+            /* border: 1px solid #ee3b3b; */
+            border: 1px solid #ccc;
+            color: #999;
+        }
+        
+        .put_tel i,
+        .put_username i,
+        .put_pw i {
+            position: absolute;
+            top: 16px;
+            right: 87px;
+        }
+        
+        .put_tel i,
+        .put_username i,
+        .put_pw i,
+        .company_register i {
+            display: inline-block;
+            width: 11px;
+            height: 11px;
+            background: url('../image/newRegister.png') no-repeat;
+            background-position: -32px 0;
+            cursor: pointer;
+        }
+        
+        .put_tel span,
+        .put_username span,
+        .put_pw span {
+            position: absolute;
+            top: 14px;
+            left: 281px;
+            width: 16px;
+            height: 16px;
+            background: url('../image/newRegister.png') no-repeat;
+            background-position: 22px 0;
+        }
+        
+        .put_tel_err,
+        .put_username_err,
+        .put_pw_err {
+            position: absolute;
+            color: #ff4c4c;
+            font-size: 13px;
+        }
+        
+        .put_yanzheng a {
+            text-align: center;
+            color: #555;
+        }
+        
+        .put_sure {
+            margin: 50px 0 20px;
+        }
+        
+        .put_sure button,
+        .put_sure span {
+            padding: 9px 10px;
+            color: #fff;
+            background: #ff4c4c;
+            border: 1px solid #ee3b3b;
+            text-align: center;
+            font-size: 18px;
+            cursor: pointer;
+        }
+        
+        .put_sure button:hover,
+        .put_sure span:hover {
+            color: #fff;
+            background: #ee3b3b;
+        }
+        
+        .company_register {
+            margin-bottom: 75px;
+            height: 21px;
+        }
+        
+        .company_register i {
+            float: left;
+            margin-top: 2px;
+            margin-right: 5px;
+            width: 16px;
+            height: 16px;
+            background-position: -84px 0;
+        }
+        
+        .company_register a {
+            float: left;
+            font-size: 14px;
+            color: #2875cc;
+        }
+        
+        .register_agree {
+            width: 890px;
+            height: 500px;
+            padding: 15px 0 5px 0;
+            position: absolute;
+            top: 100px;
+            left: 214.5px;
+            z-index: 30;
+            border: 1px solid #eee;
+            /* 水平。垂直。模糊距离 （阴影的大小）颜色 是内还是外 */
+            box-shadow: 0 0 8px rgba(0, 0, 0, .2);
+            font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", HeitiSC, "WenQuanYi Micro Hei", sans-serif;
+            background-color: #ffffff;
+        }
+        
+        .rg_agree_item {
+            padding: 0 35px;
+        }
+        
+        .rg_agree_item h5 {
+            font-size: 16px;
+            color: #000;
+            font-weight: 400;
+            text-align: center;
+            padding: 7px 0 8px 0;
+        }
+        
+        .rg_agree_item p {
+            font-size: 12px;
+            color: #585858;
+            line-height: 24px;
+        }
+        
+        .protocol {
+            padding-top: 15px;
+            overflow: auto;
+        }
+        
+        .protocol a {
+            display: inline-block;
+            color: #2875cc;
+            font-size: 13px;
+            padding-bottom: 5px;
+        }
+        
+        .protocol div {
+            width: 795px;
+            height: 75px;
+            border: 1px solid #e6e6e6;
+            overflow-y: auto;
+            padding: 0 14px 0 9px;
+            font-size: 12px;
+            line-height: 24px;
+            color: #333;
+        }
+        
+        .protocol .agree,
+        .protocol .noagree {
+            padding: 0 20px;
+            height: 28px;
+            background: #fff;
+            line-height: 28px;
+            font-size: 14px;
+            border-radius: 3px;
+            float: left;
+            border: 1px solid #cacccf;
+            color: #555;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        
+        .protocol .agree {
+            margin-left: 332px;
+        }
+        
+        .protocol .noagree {
+            border: 1px solid #ff4c4c;
+            color: #ff4c4c;
+        }
+        
+        .register_mask {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 20;
+            width: 100%;
+            height: 100%;
+            height: 841px;
+            background: rgba(0, 0, 0, 0.15);
+            opacity: 0.3;
+        }
+        
+        .gm_footer {
+            border-top: 1px solid #dedede;
+        }

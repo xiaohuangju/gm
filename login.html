@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/w2.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- 登录界面 -->
+
+    <div class="login">
+        <!-- 登录的顶部需要引进 -->
+        <div class="w2header"></div>
+
+
+        <!-- 安全提示 -->
+        <div class="saveTip">
+            <p>
+                <i></i> 依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！新版
+                <a href="">《国美平台隐私政策》</a>已上线，将更有利于保护您的个人隐私。
+            </p>
+        </div>
+
+        <!-- 登录的主体 -->
+        <div class="login_content">
+            <div class="login_main w">
+
+                <div class="login_wrap">
+                    <!-- /登录切换 -->
+                    <div class="login_tab clearfix">
+                        <div class="tableft"><a href="">扫码登录</a></div>
+                        <div class="tabright"><a href="">账户登录</a></div>
+                    </div>
+
+
+                    <!-- 登录中间部分 -->
+                    <div class="login_box">
+                        <!-- 二维码的方式 -->
+                        <!-- <div class="login_erweima">
+                            <div class="default_status">
+                                <img src="https://login.gome.com.cn/getQrcode.no?width=165&height=165&refreshkey=24" alt="">
+
+                                失效二维码 -->
+                        <!-- <div class="img_error">
+                                    <div class="img_er">
+                                        <p>二维码失效</p>
+                                        <a href="">点击刷新</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="open_phon">打开手机&nbsp;<a href="">国美</a></p>
+                            <p class="ss_login">扫一扫登录</p>
+                            <a href="" class="freein">免费注册</a>
+                        </div>  -->
+
+
+
+                        <!-- 表单的方式 -->
+                        <div class="login_form">
+                            <form action="">
+                                <!-- 账号 -->
+                                <p class="waring_tips">
+                                    <i></i> 公共场所不建议自动登录，以防账号丢失
+                                </p>
+                                <div class="login_form_zh">
+                                    <a href=""></a>
+                                    <input type="text" id='username' placeholder="手机号码/用户名/邮箱/门店会员卡号">
+                                </div>
+                                <!-- 密码 -->
+                                <div class="login_form_pw">
+                                    <a href=""></a>
+                                    <input type="password" id='psw' placeholder="密码">
+                                </div>
+
+                                <!-- 忘记密码，记住密码，免费登录部分 -->
+                                <div class="remeber clearfix">
+                                    <div class="fl">
+                                        <input type="checkbox" name="" id="autoin">
+                                        <label for="aotuin">自动登录</label>
+                                    </div>
+                                    <div class="fr">
+                                        <a href="./forget.html">忘记密码</a>
+                                        <span>|</span>
+                                        <a href="">免费登录</a>
+                                    </div>
+                                </div>
+                                <div> <input type="button" value="登录" name="denglu" id="" class="login_btn"></div>
+                                <p class="quickin"><a href="">手机号快速登录(支持门店预留手机)</a></p>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- 登录的尾部 -->
+                    <dl class="login_weibu">
+                        <dd class="play_icon clearfix">
+                            <a href="http://myhome.gome.com.cn/member/loginStore" title="门店会员卡登录">门店会员卡登录</a>
+                            <a href="https://login.gome.com.cn/quicklogin/qqLogin.no" title="QQ" tabindex="8" class="borderLine"><em>QQ</em></a>
+                            <a href="https://login.gome.com.cn/quicklogin/wechatLogin.no" title="微信" tabindex="18">微信</a>
+                            <a href="https://login.gome.com.cn/quicklogin/sinaLogin.no" title="新浪微博" tabindex="10">微博</a>
+                            <a href="https://login.gome.com.cn/quicklogin/gomePayLogin.no" title="美付宝" tabindex="17">美付宝</a>
+                            <a href="https://login.gome.com.cn/quicklogin/jixinLogin.no" title="极信通" tabindex="16">极信通</a>
+                            <a href="https://login.gome.com.cn/quicklogin/alipayLogin.no" title="支付宝" tabindex="9">支付宝</a>
+                        </dd>
+                        <dd>
+                            <a class="more"></a>
+                        </dd>
+                    </dl>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- 登录的底部需要引进 -->
+
+        <div class="w2footer"></div>
+    </div>
+
+
+</body>
+<script src="./lib/jquery1.12.4.min.js"></script>
+<script src="./js/ajax.js"></script>
+<script src="./js/login.js"></script>
+
+
+<script>
+    $(document).ready(function() {
+        $(".w2header").load("./w2top.html");
+        $(".w2footer").load("./w2footer.html");
+    });
+</script>
+
+</html>

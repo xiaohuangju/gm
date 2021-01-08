@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <link rel="stylesheet" href="./css/w2.css">
+    <link rel="stylesheet" href="./css/shopcart.css">
+
+</head>
+
+<body>
+    <!-- 头部引入 -->
+    <div class="w2header"></div>
+
+
+
+
+    <div class='box w2'>
+        <div class='box_title'>
+            <h4><input type="checkbox" name="quan">全选</h4>
+            <h4>商品图片</h4>
+            <h4>数量</h4>
+            <h4>单价</h4>
+            <h4>商品信息</h4>
+            <h4>小计</h4>
+            <h4>操作</h4>
+            <p class='clear'></p>
+        </div>
+        <div class='content'>
+            <div class='shop'>
+                <h4><input type="checkbox" name="xuan"></h4>
+                <h4><img src="https://gfs17.gomein.net.cn/T1DGY4B4ET1RCvBVdK_80.jpg" class="imgsrc"></h4>
+                <h4>
+                    <button>-</button>
+                    <input type="text" value="1" class="img_num">
+                    <button>+</button>
+                </h4>
+                <h4>$<span class="img_price">2000.00</span></h4>
+                <h4 class="img_title">数码相机</h4>
+                <h4>$<span>2000.00</span></h4>
+                <h4>
+                    <button>删除</button>
+                </h4>
+                <p class='clear'></p>
+            </div>
+
+
+        </div>
+        <div class='shop_footer'>
+            <button>全删</button>
+            <!-- <button>增加一行</button>  -->
+            总计：$
+            <span class='total'>0.00</span> 店铺合计：$
+            <span class='shopTotal'>0.00</span>
+        </div>
+    </div>
+
+
+    <!-- 尾部引入 -->
+    <div class="w2footer "></div>
+</body>
+<script src="./lib/jquery1.12.4.min.js "></script>
+<script src="./js/shopcart.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $(".w2header").load("./w2top.html");
+        $(".w2footer").load("./w2footer.html");
+    });
+</script>
+
+</html>

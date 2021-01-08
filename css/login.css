@@ -1,0 +1,330 @@
+.login_header {
+    height: 120px;
+    margin: auto;
+}
+
+.logo {
+    margin: 18px 40px 0 0;
+    float: left;
+}
+
+.logo a {
+    display: block;
+    width: 300px;
+    height: 62px;
+    margin-top: 13px;
+    background: url('../image/loginlogo.png') no-repeat;
+}
+
+.saveTip {
+    background-color: #fff4e3;
+}
+
+.saveTip p {
+    width: 828px;
+    height: 29px;
+    padding-left: 10px;
+    margin: 0 auto;
+    color: #ff7f23;
+    font: 400 12px/29px "Microsoft Yahei";
+    background-color: #fff4e3;
+    border-top: 1px solid #fee6bc;
+}
+
+.saveTip i {
+    display: block;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("../image/login-bg-common.png")-28px 0;
+    margin: 8px 5px 0 0;
+}
+
+.saveTip p a {
+    color: #2875cc;
+}
+
+.login_content {
+    background: #fff1e8;
+    height: 480px;
+}
+
+.login_main {
+    height: 100%;
+    background: url(../image/T1ruLjBvd_1RCvBVdK.jpg)top center;
+}
+
+.login_wrap {
+    position: relative;
+    float: right;
+    width: 350px;
+    margin-top: 24px;
+    margin-right: 105px;
+    background: #fff
+}
+
+.login_tab {
+    height: 54px;
+    position: relative;
+    border-bottom: 1px solid #f4f4f4;
+    text-align: center;
+    color: #5e5e5e;
+}
+
+.login_tab a {
+    position: absolute;
+    top: 16px;
+    left: 0;
+    width: 99%;
+    font: 500 18px "Microsoft Yahei";
+}
+
+.tableft a {
+    border-right: 1px solid #f4f4f4;
+}
+
+.tableft,
+.tabright {
+    /* display: inline-block; */
+    position: absolute;
+}
+
+.tableft {
+    left: 0;
+    width: 174px;
+}
+
+.tabright {
+    right: 0;
+    width: 175px;
+}
+
+.login_box {
+    min-height: 241px;
+    padding: 25px 11px 0 19px;
+}
+
+.login_erweima {
+    text-align: center;
+}
+
+.default_status {
+    position: relative;
+    width: 320px;
+    height: 167px;
+    text-align: center;
+}
+
+.default_status img {
+    border: 1px solid #f4f4f4;
+}
+
+
+/* .default_status {
+    position: relative;
+    height: 165px;
+} */
+
+
+/* .in_img {
+    width: 167px;
+    height: 172px;
+    text-align: center;
+} */
+
+.img_error {
+    display: none;
+    width: 168px;
+    height: 180px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    border: #f3f3f3;
+    position: absolute;
+    left: 75px;
+    top: 0;
+    text-align: center;
+}
+
+.img_error p {
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Microsoft Yahei";
+}
+
+.img_er {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    padding: 48px 10px 0 30px;
+}
+
+.img_error a {
+    /* margin-top: 30px; */
+    width: 105px;
+    height: 32px;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Simsun;
+    background: #ff5757;
+    text-align: center;
+    line-height: 32px;
+    margin: 30px auto;
+}
+
+.open_phon {
+    padding: 17px 0 0;
+}
+
+.open_phon,
+.ss_login {
+    color: #5e5e5e;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.open_phon a {
+    color: #ff5757;
+}
+
+.ss_login {
+    margin-top: 5px;
+}
+
+.freein {
+    position: absolute;
+    bottom: 10px;
+    right: 14px;
+    width: 50px;
+    height: 18px;
+    color: #069;
+}
+
+.login_weibu {
+    background-color: #fcfcfc;
+    padding: 9px 20px;
+    color: #a5a5a5;
+    position: relative;
+    border: 1px solid #f0f0f0;
+}
+
+.login_weibu dd {
+    width: 300px;
+}
+
+.login_weibu dd a {
+    float: left;
+    white-space: nowrap;
+    cursor: pointer;
+    color: #5e5e5e;
+    padding: 0 8px;
+    margin: 6px 0;
+}
+
+.more {
+    position: absolute;
+    top: 14px;
+    right: 20px;
+    width: 19px;
+    height: 19px;
+    background: url(../image/login-bg-common.png) no-repeat 0 -25px;
+}
+
+.login_form {
+    position: relative;
+    width: 300px;
+    padding: 5px 10px 0;
+}
+
+.login_form_zh input,
+.login_form_pw input {
+    padding: 8px 10px 7px;
+    width: 268px;
+    height: 25px;
+    border: 1px solid #CCC;
+    font-family: Arial, simsun;
+    color: #333;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.remeber {
+    padding: 10px 0 12px;
+    font: 12px/1.5 Arial, simsun;
+}
+
+.waring_tips {
+    background: #ffeede;
+    color: #ff8001;
+    width: 290px;
+    height: 22px;
+    font: 12px Arial, simsun;
+    line-height: 22px;
+    position: absolute;
+    top: -21px;
+    left: 11px;
+    /* display: none; */
+    /* z-index: 2; */
+}
+
+.waring_tips i {
+    float: left;
+    width: 14px;
+    height: 14px;
+    /* overflow: hidden; */
+    margin: 4px 5px 0 10px;
+    display: inline-block;
+    background: url('../image/login-bg-common.png') no-repeat 0 -54px;
+    ;
+}
+
+.remeber input {
+    float: left;
+    margin-right: 4px;
+    margin-top: 3px;
+}
+
+.remeber label {
+    color: #5e5e5e;
+    ;
+}
+
+.login_form_zh,
+.login_form_pw {
+    position: relative;
+    height: 52px;
+}
+
+.login_form_zh a,
+.login_form_pw a {
+    position: absolute;
+    top: 15px;
+    right: 18px;
+    z-index: 3;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    background: url("../image/spr-icon.png") -20px -90px;
+}
+
+.login_btn {
+    display: block;
+    width: 290px;
+    height: 42px;
+    background: #ff5757;
+    font: 500 18px/41px "Microsoft Yahei";
+    color: #fff;
+    text-align: center;
+    word-spacing: 3px;
+    cursor: pointer;
+}
+
+.quickin {
+    padding: 30px 0 15px;
+}
+
+.login_form .quickin a {
+    color: #2875cc;
+}
